@@ -1,6 +1,7 @@
 # GPFiniteVolume.jl
 
 [![Build Status](https://github.com/timweiland/GPFiniteVolume.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/timweiland/GPFiniteVolume.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![arXiv](https://img.shields.io/badge/arXiv-2605.31127-b31b1b.svg)](https://arxiv.org/abs/2605.31127)
 
 Scalable Bayesian inference for nonlinear conservation laws via Gaussian process finite volume methods (GP-FVM) with sparse Cholesky approximation.
 
@@ -8,7 +9,8 @@ This is the reference implementation for:
 
 > **Scalable Bayesian Inference for Nonlinear Conservation Laws**  
 > Tim Weiland and Philipp Hennig.  
-> *International Conference on Machine Learning (ICML)*, 2026.
+> *International Conference on Machine Learning (ICML)*, 2026.  
+> [arXiv:2605.31127](https://arxiv.org/abs/2605.31127)
 
 ## What this package does
 
@@ -106,7 +108,18 @@ experiments/                    Paper-reproducing experiments
 
 ## Citation
 
-A BibTeX entry will be added here once the arXiv preprint is online; the PMLR proceedings entry will replace it once the ICML 2026 proceedings are published.
+If you use this work, please cite the paper. The arXiv preprint is available at [arXiv:2605.31127](https://arxiv.org/abs/2605.31127); this entry will be updated with the PMLR reference once the ICML 2026 proceedings are published.
+
+```bibtex
+@misc{weiland2026scalable,
+  title         = {Scalable Bayesian Inference for Nonlinear Conservation Laws},
+  author        = {Weiland, Tim and Hennig, Philipp},
+  year          = {2026},
+  eprint        = {2605.31127},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+}
+```
 
 ## License
 
